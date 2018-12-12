@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Work+Sans');
 
 /**
 * -----------
@@ -10,7 +11,7 @@ body {
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #303044;
 }
@@ -93,7 +94,7 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 218px;
+  width: 960px;
   max-width: 100%;
 }
 
@@ -255,14 +256,16 @@ button {
 
 .header__subtitle {
   margin: 0;
-  font-size: 3.2em;
-  font-weight: 100;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: 200;
   text-shadow: 1px 1px 5px #000;
 }
 
 
 .header__nav {
   background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
 }
 
 .nav-main__item {
@@ -283,15 +286,26 @@ button {
 /**
 * separator
 */
-.separator {
+.separator,
+.separator::after {
   display: block;
-  margin: 50px auto;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
   width: 200px;
   height: 1px;
   border: none;
   background-color: #d9d9d9;
+  top: 45%;
+  Left: 15%;
+  transform: rotate(20deg);
 }
 
+.separator::after {
+  content: "";
+  transform: rotate(-40deg);
+}
 
 /**
 * honey-pot
