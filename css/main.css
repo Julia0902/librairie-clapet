@@ -24,7 +24,33 @@ p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textare
 li {
   margin: 5px 0;
 }
+.bloc-image-avec-texte {
+  display: flex;
+}
 
+.image-animal {
+  min-width: 340px;
+}
+.citation-jim {
+  margin: 5px 0;
+  color:#e8a27d;
+  border-left: 4px solid #d9d9d9;
+  padding-left: 20px; 
+}
+
+.signature1 {
+  text-align: right
+}
+
+.signature2 {
+  text-align: right
+}
+.citation-une-histoire {
+  margin: 5px 0;
+  color:#e8a27d;
+  border-left: 4px solid #d9d9d9;
+  padding-left: 20px; 
+}
 p {
   margin: 15px 0;
 }
