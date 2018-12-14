@@ -463,6 +463,22 @@ button {
   margin-bottom: 35px;
 }
 
+.news-list-4 {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+}
+
+.news-list-2 {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+}
+
 .news-list .news-list__news--main {
   grid-column: span 3;
 }
@@ -471,6 +487,26 @@ button {
   grid-column: span 1;
 }
 
+.grande-actus {
+  grid-column: span 4;
+}
+
+
+.bloc3 {
+  grid-column: span 2;
+}
+
+.bloc4 {
+  grid-column: span 2;
+}
+
+.bloc5 {
+  grid-column: span 4;
+}
+
+.bloc6 {
+  grid-column: span 1;
+}
 /**
 * -----------
 * Trumps
